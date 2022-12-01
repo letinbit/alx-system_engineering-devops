@@ -11,3 +11,4 @@ Is there and difference between ugo+x and u+x,g+x,o+x?
 For a file rwxr-x-wx means 753
 chmod --reference=[file_1] [file_2]  this will copy the permission mode from file_1 to file_2
 option -m is required while creating directory with access permission number like 751
+It is possible to change the groups of a file1 this command chgrp [newgroup] fgile1
