@@ -8,3 +8,4 @@ Chmod with threedigit vale can change the giving file permission
 we have to use u+r or w or x to add permission at excution time
 u meand owner, g means group and o meand other user
 Is there and difference between ugo+x and u+x,g+x,o+x?
+For a file rwxr-x-wx means 753
