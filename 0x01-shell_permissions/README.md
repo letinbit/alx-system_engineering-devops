@@ -12,3 +12,4 @@ For a file rwxr-x-wx means 753
 chmod --reference=[file_1] [file_2]  this will copy the permission mode from file_1 to file_2
 option -m is required while creating directory with access permission number like 751
 It is possible to change the groups of a file1 this command chgrp [newgroup] fgile1
+The command chown is used to change the file owner. It also used to change the file group inline with user owner. here is the syntax chmown -R <owner>:<groupname> .*
