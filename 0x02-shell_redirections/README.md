@@ -15,3 +15,6 @@ It use used to display the whole content of a file or a standard input
 **Using cat command for more than one fil**
 	IT is possible to print the content of two files using cat. here is the command syntax:-
 	cat <file_1> <file_2>
+
+**tail**
+This command is used to display the last 10th lines of a file if no parameter is used. We can set the numbers of line by using the opption -n and the required number. for example to get the last 21 lines the command will be like tail -n 21 <file>. tail is the opposit of **head**
