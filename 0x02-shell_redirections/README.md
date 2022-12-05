@@ -22,3 +22,14 @@ This command is used to display the last 10th lines of a file if no parameter is
 **head** 
 This command is used to display the first 10th lines of a file if no parameter is used. We can set the numbers of line by using the opption -n and the required number. for example to get the first 14 lines the command will be like *head -n 21 <file>*. head is the opposit of **tail**
 
+**Combination of head and tail**
+To diaplay the specified line of a text file, we can use both head and tail commands. It is a simple mathematical trick. for example to print the third line:- Firat we have to extract the firat three lines from a text file, (this can be done using head command), then print the last one line using tail command. Example: to print the third line from below text file
+		A
+		B
+		C
+		D
+		E
+head -n 3 <text> --> this prepare A B and c 
+then use tain -n 1 <text> but now <text> is a standard output comes from the head command. thus C will be displayed.    head -n 3 <text> | tail -1    **It is just apileline**
+
+
