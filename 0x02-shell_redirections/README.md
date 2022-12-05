@@ -32,4 +32,6 @@ To diaplay the specified line of a text file, we can use both head and tail comm
 head -n 3 <text> --> this prepare A B and c 
 then use tain -n 1 <text> but now <text> is a standard output comes from the head command. thus C will be displayed.    head -n 3 <text> | tail -1    **It is just apileline**
 
+**Standard Output**
+> is used to write the output to file. If the file is already available it will overwrite the new reult onto the the file. 
 
