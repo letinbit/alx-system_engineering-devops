@@ -35,3 +35,7 @@ then use tain -n 1 <text> but now <text> is a standard output comes from the hea
 **Standard Output**
 > is used to write the output to file. If the file is already available it will overwrite the new reult onto the the file. 
 
+**Filters and Standard Output**
+One of the filters is tail, which is used to read the last n lines. And it is possible to read a file using tail command and then *Append* or *Overwrite* the tresul onto th same file or onto other file.
+for example to append the last line onto the same file
+	*tail -n 1 <file_1> >><file_1>
