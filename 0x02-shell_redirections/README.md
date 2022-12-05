@@ -39,3 +39,9 @@ then use tain -n 1 <text> but now <text> is a standard output comes from the hea
 One of the filters is tail, which is used to read the last n lines. And it is possible to read a file using tail command and then *Append* or *Overwrite* the tresul onto th same file or onto other file.
 for example to append the last line onto the same file
 	*tail -n 1 <file_1> >><file_1>
+
+**Special Characters**
+* represent any number of character
+? represent only one but any character
+
+Let use * in example. To delete files and folders with .js extension   rm -R ./*.js
