@@ -18,3 +18,7 @@ It use used to display the whole content of a file or a standard input
 
 **tail**
 This command is used to display the last 10th lines of a file if no parameter is used. We can set the numbers of line by using the opption -n and the required number. for example to get the last 21 lines the command will be like tail -n 21 <file>. tail is the opposit of **head**
+
+**head** 
+This command is used to display the first 10th lines of a file if no parameter is used. We can set the numbers of line by using the opption -n and the required number. for example to get the first 14 lines the command will be like *head -n 21 <file>*. head is the opposit of **tail**
+
