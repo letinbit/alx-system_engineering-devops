@@ -48,3 +48,8 @@ Let use * in example. To delete files and folders with .js extension   rm -R ./*
 
 **Reverse**
 echo "Neway" | rev      this script will print yaweN
+
+
+**Replacing characters using tr**
+echo "Neway" |tr e i |tr a y    this  script will produce Niwyy
+
