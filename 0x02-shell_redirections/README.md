@@ -45,3 +45,6 @@ for example to append the last line onto the same file
 ? represent only one but any character
 
 Let use * in example. To delete files and folders with .js extension   rm -R ./*.js
+
+**Reverse**
+echo "Neway" | rev      this script will print yaweN
