@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$NUM$1.00"
+echo "$(($NUM+0.00))"
